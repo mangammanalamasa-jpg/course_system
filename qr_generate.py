@@ -1,6 +1,7 @@
 import qrcode
 
-url = "http://192.168.1.5:5000/s3"
+# The exact working link to your student system
+url = "https://course-system-mg00.onrender.com/s3"
 
 img = qrcode.make(url)
 
